@@ -49,6 +49,7 @@ local Blood = Instance.new("TextButton")
 local Orignal = Instance.new("TextButton")
 local LT2 = Instance.new("TextButton")
 local Venyx = Instance.new("TextButton")
+local infiniteyield = Instance.new("TextButton")
 local Credits = Instance.new("TextButton")
 local CreditsFrame = Instance.new("Frame")
 local MadeBy = Instance.new("TextLabel")
@@ -899,6 +900,21 @@ Venyx.TextScaled = true
 Venyx.TextSize = 14.000
 Venyx.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 Venyx.TextWrapped = true
+
+local UICk58 = Instance.new("UICorner", infiniteyield)
+infiniteyield.Name = "infiniteyield"
+infiniteyield.Parent = HubFrame
+infiniteyield.BackgroundColor3 = Border1
+infiniteyield.BorderSizePixel = 0
+infiniteyield.Position = UDim2.new(0.0199999996, 0, 0.675000012, 0)
+infiniteyield.Size = UDim2.new(0, 151, 0, 72)
+infiniteyield.Font = Enum.Font.SourceSans
+infiniteyield.Text = "InfiniteYield"
+infiniteyield.TextColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield.TextScaled = true
+infiniteyield.TextSize = 14.000
+infiniteyield.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield.TextWrapped = true
 
 local UICk53 = Instance.new("UICorner", Credits)
 Credits.Name = "Credits"
@@ -1758,6 +1774,11 @@ end)
 LT2.MouseButton1Click:Connect(function()
 	game:HttpGet("https://getexploits.com/cexecution/699646509528141824")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IHateSchoolIsCool/FuckCheapShops/main/Schoolhub%20Selector"))("Fuck Cheap Shops")
+end)
+
+--infiniteyield
+infiniteyield.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 
 --Orignal
