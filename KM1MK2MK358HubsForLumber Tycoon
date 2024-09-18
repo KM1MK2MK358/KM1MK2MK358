@@ -1,0 +1,2 @@
+wait(0.1)
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/KM1MK2MK358/KM1MK2MK358/refs/heads/main/KM1MK2MK358hHubV"),true))()
