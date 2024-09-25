@@ -1784,7 +1784,7 @@ end)
 --Blood
  
 Blood.MouseButton1Click:Connect(function()
-	loadstring(Game:HttpGet("https://pastebin.com/raw/ALJyH1LN"))("Butter")
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/Root2.lua'))("")
 end)
 --LT2
 LT2.MouseButton1Click:Connect(function()
@@ -22248,4 +22248,3 @@ end)
 
 
  
-
